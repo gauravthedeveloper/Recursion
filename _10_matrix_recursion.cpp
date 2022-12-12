@@ -2,6 +2,8 @@
 using namespace std;
 //----------------------------------------------------------------
 // steps to reach from (0,0) to (p.first,p.second)
+
+// order of 2^(p.first*p.second) FEEL for every cell i have two options
 void step(int x, int y, pair<int, int> p, string path)
 {
     if (x > p.first || y > p.second)
